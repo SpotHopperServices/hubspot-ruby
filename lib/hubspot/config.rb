@@ -1,3 +1,6 @@
+require 'logger'
+require 'hubspot/connection'
+
 module Hubspot
   class Config
     CONFIG_KEYS = [
@@ -47,7 +50,7 @@ module Hubspot
         end
       end
 
-      private
+            private
 
       def authentication_uncertain?
         access_token.present? ^ hapikey.present?
