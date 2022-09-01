@@ -1,3 +1,4 @@
+Originally forked from https://github.com/HubspotCommunity/hubspot-ruby
 # HubSpot REST API wrappers for ruby
 
 Wraps the HubSpot REST API for convenient access from ruby applications.
